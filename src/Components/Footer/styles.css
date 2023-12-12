@@ -1,0 +1,30 @@
+.dsct-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--dsct-color-bg-primary);
+}
+
+.dsct-footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .dsct-footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dsct-footer-content {
+    padding: 0px;
+  }
+}

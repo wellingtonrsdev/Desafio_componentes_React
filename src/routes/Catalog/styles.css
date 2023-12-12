@@ -1,0 +1,21 @@
+#dsct-catalog-section {
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#dsct-catalog-section h2 {
+  text-align: center;
+  color: var(--dsct-color-font-primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    #dsct-catalog-section h2 {
+        font-size: 32px;
+      }
+  }
