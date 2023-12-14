@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="dsct-footer-container">
       <div className="dsct-footer-content">
         <a href="#">@dscarrostop</a>
-        <p>Rua da Pipoca, 150</p>
+        <p><i>Rua da Pipoca, 150</i></p>
       </div>
     </div>
   );
